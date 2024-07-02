@@ -1,0 +1,59 @@
+
+.about-section {
+    background-color: #f9f9f9; /* Fundo claro para destacar a seção */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.about-section h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.about-section blockquote {
+    border-left: 5px solid #007BFF; /* Cor de destaque para a borda do blockquote */
+    padding-left: 15px;
+    font-style: italic;
+    color: #333;
+    margin: 20px 0;
+}
+
+.about-section blockquote p {
+    margin: 0;
+}
+
+.about-section blockquote .nome {
+    text-align: right;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 10px;
+}
+
+.about-section .nota {
+    font-size: 0.9em;
+    color: #777;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.about-section .foto {
+    border-radius: 50%;      /* Faz a imagem ficar circular */
+    max-width: 250px;        /* Ajuste este valor para diminuir a imagem */
+    height: auto;
+    display: block;          /* Faz a imagem ser tratada como um bloco */
+    margin: 0 auto;  
+}

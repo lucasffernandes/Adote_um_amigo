@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adote um Amigo</title>
+    <link rel="shortcut icon" href="midia/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        #cta .btn {
+            display: inline-block;
+            background-color: #ff6f61;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Adote um Amigo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pagina_adocoes.html">Adotar</a></li>
+                <li><a href="pagina_sobre.html">Sobre</a></li>
+                <li><a href="pagina_contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="welcome">
+            <h2>Bem-vindo ao Adote um Amigo!</h2>
+            <p>Nossa missão é ajudar cães sem lar a encontrar uma família amorosa. Junte-se a nós nesta missão e faça a diferença na vida de um cãozinho.</p>
+        </section>
+
+        <div class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bLta5qX6hL8?si=avT-btUX_zCiZo8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <section id="highlights">
+            <h2>Destaques</h2>
+            <div class="highlight">
+                <h3>Eventos de Adoção</h3>
+                <p>Participe dos eventos de adoção disponíveis. Existem muitos cães esperando por um lar!</p>
+                <a href="pagina_noticias.html">Saiba mais</a>
+            </div>
+            <div class="highlight">
+                <h3>Histórias de adoção</h3>
+                <p>Veja sobre a emocionante história de Benny, um cachorro que se encontrava em um abrigo para animais localizado em Gardenia, Califórnia. Ele viralisou nas redes sociais com uma filmagem gravada no dia de sua adoção.</p>
+                <a href="https://www.youtube.com/watch?v=CPt2iS2uLIM" target="_blank" rel="external">Veja mais</a>
+            </div>
+        </section>
+
+        <section id="cta">
+            <h2>Adote um Cão Hoje</h2>
+            <a href="pagina_adocoes.html"    class="btn" >Veja Nossos Cães</a>
+        </section>
+
+        <section id="testimonials">
+            <h2>Depoimentos</h2>
+            <div class="testimonial">
+                <p>"O site nos conscientiza sobre a importância da adoção e ainda nos fornece informações muito úteis para o processo.." - Michelle Batista</p>
+            </div>
+            <br><br><br>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Adote um Amigo. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

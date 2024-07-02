@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Adoção de Cães</title>
+    <link rel="shortcut icon" href="midia/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #intro {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centraliza horizontalmente */
+            justify-content: center; /* Centraliza verticalmente */
+            text-align: center; /* Centraliza texto dentro do contêiner */
+        }
+        #intro img {
+            height: auto; /* Mantém a proporção da imagem */
+            object-fit: cover; /* Ajusta a imagem para cobrir o contêiner */
+            margin: 0 auto; /* Centraliza a imagem horizontalmente */
+        }
+
+        @media (max-width: 600px) {
+            #intro img {
+                max-width: 75%; /* Permite que a imagem ocupe até 100% da largura do contêiner */
+            }
+        }
+        
+        /* Media query para telas médias */
+        @media (min-width: 600px) and (max-width: 1024px) {
+            #intro img {
+                max-width: 70%; /* Ajusta a largura máxima da imagem para telas médias */
+            }
+        }
+        
+        /* Media query para telas grandes */
+        @media (min-width: 1025px) {
+            #intro img {
+                max-width: 50%; /* Ajusta a largura máxima da imagem para telas grandes */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Adote um Amigo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pagina_adocoes.html">Adotar</a></li>
+                <li><a href="pagina_sobre.html">Sobre</a></li>
+                <li><a href="pagina_contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="intro">
+            <h1>Página de adoções</h1>
+            <p>Encontre aqui imagens de cachorros disponíveis para adoção.</p>
+
+            <strong>Dogs disponíveis e suas respectivas Ongs:</strong>
+
+            <h2>Grandão</h2>
+            <img src="https://rockbicho.org/wp-content/uploads/2022/06/Grandao.jpeg" alt="Imagem para divulgar adoção">
+            <P><strong>Local:</strong> Belo Horizonte, Minas Gerais</P>
+            <p><strong>Idade:</strong> Adulto</p>
+            <p><strong>Sexo:</strong> Macho</p>
+            <a href="https://rockbicho.org/dados-do-animal/grandao-cao-para-adocao-2/" target="_blank" rel="nofollow" class="btn">Saiba mais</a>
+            <br>
+
+            <h2>Martin</h2>
+            <img src="https://rockbicho.org/wp-content/uploads/2022/06/Martim.jpeg" alt="Imagem de divulgação de adoção">
+            <p><strong>Local:</strong> Belo Horizonte, Minas Gerais</p>
+            <p><strong>Idade:</strong> 5 anos</p>
+            <p><strong>Sexo:</strong> Macho</p>
+            <a href="https://rockbicho.org/dados-do-animal/martin-cao-para-adocao/" target="_blank" rel="nofollow" class="btn">Saiba mais</a>
+            
+            <h2>Sérgio</h2>
+            <img src="https://www.bastadotar.org/wp-content/uploads/2024/04/Sergio.png" alt="Imagem de divulgação de adoção">
+            <p><strong>Local:</strong> Belo Horizonte, Minas Gerais</p>
+            <p><strong>Idade:</strong> 3 anos</p>
+            <p><strong>Sexo:</strong> Macho</p>
+            <a href="https://www.bastadotar.org/pet-finder/sergio/" target="_blank" rel="nofollow" class="btn">Saiba mais</a>
+
+            <h2>Frida</h2>
+            <img src="https://rockbicho.org/wp-content/uploads/2022/06/frida.jpeg" alt="Imagem de divulgação de adoção">
+            <p><strong>Local:</strong> Belo Horizonte, Minas Gerais</p>
+            <p><strong>Idade:</strong> 3 anos</p>
+            <p><strong>Sexo:</strong>Fêmea</p>
+            <a href="https://rockbicho.org/dados-do-animal/frida-cachorra-para-adocao/"  target="_blank" rel="external" class="btn">Saiba mais</a>
+
+            <h2>Lobinho</h2>
+            <img src="https://rockbicho.org/wp-content/uploads/jet-form-builder/e0892e94ed4df65405a5ade41eeeb54b/2023/01/2P6A1866-768x1164.jpg" alt="Imagem de divulgação de adoção">
+            <p><strong>Local:</strong> Belo Horizonte, Minas Gerais</p>
+            <p><strong>Idade:</strong> 3 anos</p>
+            <p><strong>Sexo:</strong> Macho</p>
+            <a href="https://rockbicho.org/dados-do-animal/lobinho/" target="_blank" rel="nofollow" class="btn">Saiba mais</a>
+
+            <h2>Marcha-Ré</h2>
+            <img src="https://rockbicho.org/wp-content/uploads/2022/06/marchaeditado.jpg" alt="Imagem de divulgação de adoção">
+            <p><strong>Local:</strong> Belo Horizonte, Minas Gerais</p>
+            <p><strong>Idade:</strong> 2,5 anos</p>
+            <p><strong>Sexo:</strong> Macho</p>
+            <a href="https://rockbicho.org/dados-do-animal/marcha-re-cao-para-adocao-2/" target="_blank" rel="nofollow" class="btn">Saiba mais</a>
+
+            <h2>Duque</h2>
+            <img src="https://www.bastadotar.org/wp-content/uploads/2024/04/Duque.png" alt="Imagem de divulgação de adoção">
+            <p><strong>Local:</strong> Belo Horizonte, Minas Gerais</p>
+            <p><strong>Idade:</strong> 1 anos</p>
+            <p><strong>Sexo:</strong> Macho</p>
+            <a href="https://www.bastadotar.org/pet-finder/duque/" target="_blank" rel="nofollow" class="btn">Saiba mais</a>
+
+            <h2>Lana</h2>
+            <img src="https://www.bastadotar.org/wp-content/uploads/2024/04/Lana.png
+            " alt="Imagem para divulgar adoção">
+            <P><strong>Local:</strong> Belo Horizonte, Minas Gerais</P>
+            <p><strong>Idade:</strong> 6 Meses</p>
+            <p><strong>Sexo:</strong> Fêmea</p>
+            <a href="https://www.bastadotar.org/pet-finder/lana/" target="_blank" rel="nofollow" class="btn">Saiba mais</a>
+
+            <br><br><br><br>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Adote um Amigo</p>
+    </footer>
+</body>
+</html>

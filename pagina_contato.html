@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Adoção de Cães</title>
+    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_contato.css">
+</head>
+<body>
+    <header>
+        <h1>Adote um Amigo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pagina_adocoes.html">Adotar</a></li>
+                <li><a href="pagina_sobre.html">Sobre</a></li>
+                <li><a href="pagina_contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="intro">
+            <h2>Bem-vindo a página de contato!</h2>
+            <p>Nesta página você encontrará um formulário de cadastro, para que consiga entrar em contato com o idealizador da página. Por meio do contato, você poderá tirar suas dúvidas, sugerir melhorias, e até mesmo registrar críticas construtivas, e assim, colaborar com o aperfeiçoamento da aplicação.</p>
+        </section>
+
+        <div class="form-container">
+            <form id="contactForm">
+                <h2>Formulário de Contato</h2>
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit"  class="btn">Enviar</button>
+            </form>
+        </div>
+
+    </main>
+
+    <br><br><br><br>
+
+    <footer>
+        <p>&copy; 2024 Adote um Amigo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
