@@ -12,4 +12,4 @@
     <li>JavaScript para tratar os dados do formulário antes de serem enviados para o servidor</li>
 </ul>
 <h2>Acesse o site do projeto</h2>
-<a href="https://lucasffernandes.github.io/Adote_um_amigo/" target="_blank">SeuDog.com</a>
+<a href="https://lucasffernandes.github.io/SeuDog.com/" target="_blank">SeuDog.com</a>
